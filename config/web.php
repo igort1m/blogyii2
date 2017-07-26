@@ -54,6 +54,11 @@ $config = [
             'class' => 'app\modules\admin\Module',
         ],
     ],
+    //for using https://asset-packagist.org instead of old fxp/composer-asset-plugin
+    'aliases' => [
+        '@bower' => '@vendor/bower-asset',
+        '@npm'   => '@vendor/npm-asset',
+    ],
     'params' => $params,
 ];
 

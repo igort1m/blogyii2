@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d0ae91dd49c8a7d0b85d596e662463df",
+    "content-hash": "783b394332e4a1f0b0b3e371a21a0a48",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -178,7 +178,7 @@
             "version": "v2.0.6",
             "source": {
                 "type": "git",
-                "url": "https://github.com/yiisoft/jquery-pjax.git",
+                "url": "git@github.com:yiisoft/jquery-pjax.git",
                 "reference": "60728da6ade5879e807a49ce59ef9a72039b8978"
             },
             "dist": {
