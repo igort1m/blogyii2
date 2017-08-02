@@ -14,7 +14,7 @@ use app\models\Category;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <!--    TODO: put out of view to model-->
+    <!--    TODO: bad practice: not MVC. put out of view to model-->
     <?=$form->field($model, 'category_id')->dropDownList(ArrayHelper::map(Category::find()->all(),'id','title'),['prompt'=>'Select category']);?>
 
     <?= $form->field($model, 'title')->textInput(['maxlength' => true]) ?>
